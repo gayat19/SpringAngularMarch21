@@ -1,0 +1,69 @@
+Angular - 8
+CURD -> FlowerShop
+Instal Angular 
+Node
+https://nodejs.org/en/
+
+Download and install node
+
+To check version of node in your system
+node -v
+
+To install angular in teh cmd prompt
+npm install -g @angular/cli
+This will install the latest version of angular
+
+To check angular version 
+ng --version
+
+
+To create a new application
+Navigate to your preferred location in cmd prompty
+ng new <applicationName>
+
+Navigate inside the application folder
+To start the server
+ng serve
+
+
+MEAN -> Mongo+Express+Angular+Node
+
+Node +Angular
+
+AJAX
+Node -> The server that is going to host the angular application
+Angular -> it is a node package
+Used to create a SPA(Single Page Application)
+TypeScript compiler - tsc
+Ivy -> Compilation and rendering pipeline
+Bazel-> Open Source
+Build and test tool
+
+Web Workers with CLI-> Generation workers got a new boost in angular 8
+
+To generate a component 
+ng generate component <componenetname>
+ng g c <componentname>
+
+
+Data-Binding
+
+Login,register 
+username 
+password
+
+List All theusers
+
+AddUser -> register
+Directives
+ngIf
+ngFor
+hidden
+
+Image n angular
+
+
+
+
+
+
