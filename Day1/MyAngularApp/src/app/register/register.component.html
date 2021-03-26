@@ -1,0 +1,15 @@
+<p>register works!</p>
+<div class="alert alert-success">
+    <label class="form-control">Username</label>
+    <input type="text" class="form-control" [(ngModel)]="user.username">
+    <label class="form-control">Password</label>
+    <input type="password" class="form-control" [(ngModel)]="user.password">
+    <button class="btn btn-success" (click)="addUser()">Register</button>
+    <button class="btn btn-danger" (click)="reset()">Reset</button>
+</div>
+<div class="alert alert-success" *ngIf="message">
+    If-{{message}}
+</div>
+<div class="alert alert-success" [hidden]="!message">
+    Hide {{message}}
+</div>

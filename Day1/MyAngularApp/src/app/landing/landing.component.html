@@ -1,0 +1,19 @@
+<p>landing works!</p>
+<div class="container" [ngSwitch]="choice">
+    <h2>Nav</h2>
+    <p>Get Started!!!1</p>
+    <ul class="nav">
+      <li class="nav-item" (click)="choice='login'">
+        <a class="nav-link" href="#">Sigin-In</a>
+      </li>
+      <li class="nav-item" (click)="choice='register'">
+        <a class="nav-link" href="#">Sign-Up</a>
+      </li>
+    </ul>
+    <div *ngSwitchCase="'login'">
+        <app-login></app-login>
+    </div>
+    <div *ngSwitchCase="'register'">
+        <app-register></app-register>
+    </div>
+  </div>

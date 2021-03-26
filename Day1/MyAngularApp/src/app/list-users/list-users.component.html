@@ -1,0 +1,9 @@
+<p>list-users works!</p>
+<!-- structural directive -->
+<div *ngFor="let user of users" class="alert alert-primary">
+    Username: {{user.username}}
+    <br>
+    Password:{{user.password}}
+    <img height="100" width="100" [src]="user.imgURL" alt="No image given">
+    <hr>
+</div>

@@ -1,0 +1,14 @@
+<p>flower works!</p>
+<div>
+    ID: {{flower.id | currency:'INR'}}
+    <br>
+    Name: {{flower.name | uppercase}}
+    <br>
+    Description: {{flower.description | lowercase}}
+    <br>
+    <img width="100" height ="100" [src]="flower.pic">
+</div>
+<div>
+    {{flower| json}}
+</div>
+<br>    <br>    <br>    <br>    <br>

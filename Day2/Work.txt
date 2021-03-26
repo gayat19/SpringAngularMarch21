@@ -1,0 +1,18 @@
+ngSwitch
+
+ng g module appRouting
+
+Routing
+Place Holder - router-outlet
+Routing Array  - Routes
+
+
+Navigate
+   Ts
+   HTML
+
+To Pass Parameters
+
+Validations
+  Template
+  Reactive Form

@@ -1,0 +1,17 @@
+<p>user works!</p>
+<p class="alert alert-info">
+    <!-- interpolation -->
+    Name:{{customerName}}
+    <br>
+    Name:<input type="text" [value]="customerName" #cname> 
+    <br>
+    Name:<input type="text" [value]="customerName" [class]="checkClass"> 
+    <br>
+    <button (click)="Clicked(cname)">Click Me</button>
+
+    <br>
+    <!-- Two Way Binding -->
+    Name:<input type="text" [(ngModel)]="customerName">
+    <br>
+    <i class="fas fa-cloud" (click)="toggleColor()" [class]="checkClass"></i>
+</p>

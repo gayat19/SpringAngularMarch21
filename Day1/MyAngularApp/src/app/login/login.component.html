@@ -1,0 +1,25 @@
+<p>login works!</p>
+<!-- <div class="alert alert-success">
+    <label class="form-control">Username</label>
+    <input type="text" class="form-control" required [(ngModel)]="user.username" #username="ngModel">
+    <span class="alert alert-danger" *ngIf="username.invalid && username.touched">
+        username cannot be empty
+    </span>
+    <label class="form-control">Password</label>
+    <input type="password" class="form-control" [(ngModel)]="user.password">
+    <button class="btn btn-primary" (click)="login(username)">Login</button>
+    <button class="btn btn-danger">Reset</button>
+</div> -->
+<div class="alert alert-success">
+    <form [formGroup]="myForm">
+        <label class="form-control">Username</label>
+        <input type="text" class="form-control" formControlName="username">
+        <span class="alert alert-danger" *ngIf="username.invalid && username.touched">
+            username cannot be empty
+        </span>
+        <label class="form-control">Password</label>
+        <input type="password" class="form-control" formControlName="password">
+        <button class="btn btn-primary" (click)="login()">Login</button>
+        <button class="btn btn-danger">Reset</button>
+    </form>
+</div>
